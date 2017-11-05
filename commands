@@ -1,0 +1,3 @@
+download using wget from ieee
+wget "http://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&isnumber=&arnumber=5767830" -O paper.pdf
+arnumber is the number in url of paper abstract
