@@ -1,3 +1,6 @@
 download using wget from ieee
 wget "http://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&isnumber=&arnumber=5767830" -O paper.pdf
 arnumber is the number in url of paper abstract
+
+connect wireless using command line
+https://linuxcommando.blogspot.com/2013/10/how-to-connect-to-wpawpa2-wifi-network.html
