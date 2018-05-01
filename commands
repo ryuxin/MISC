@@ -4,3 +4,6 @@ arnumber is the number in url of paper abstract
 
 connect wireless using command line
 https://linuxcommando.blogspot.com/2013/10/how-to-connect-to-wpawpa2-wifi-network.html
+
+transfer file with compression over scp
+rsync -avzP -e "ssh -i /home/vlad/Downloads/id_geni_ssh_rsa" 40800000-408080c0 kernel.img graceliu@c220g1-030810.wisc.cloudlab.us:~
