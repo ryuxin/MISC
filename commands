@@ -7,3 +7,7 @@ https://linuxcommando.blogspot.com/2013/10/how-to-connect-to-wpawpa2-wifi-networ
 
 transfer file with compression over scp
 rsync -avzP -e "ssh -i /home/vlad/Downloads/id_geni_ssh_rsa" 40800000-408080c0 kernel.img graceliu@c220g1-030810.wisc.cloudlab.us:~
+
+fix ssh x11 forwardoing on ubuntu
+add X11UseLocalhost no
+https://www.cyberciti.biz/faq/how-to-fix-x11-forwarding-request-failed-on-channel-0/
